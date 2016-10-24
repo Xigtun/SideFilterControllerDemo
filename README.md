@@ -1,7 +1,7 @@
 效果图：
 
-![FinalEffect](/Screenshots/3E6AB54878F23B2404D256CC723670DF.jpeg)
-![image](/Untitled.gif)
+![FinalEffect](https://github.com/Xigtun/SideFilterControllerDemo/blob/master/Screenshots/3E6AB54878F23B2404D256CC723670DF.jpeg)
+![image](https://github.com/Xigtun/SideFilterControllerDemo/blob/master/Screenshots/Untitled.gif)
 
 
 #####分析
