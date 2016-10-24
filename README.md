@@ -1,6 +1,7 @@
 效果图：
 
-![FinalEffect](/Screenshots/3E6AB54878F23B2404D256CC723670DF.png)
+![FinalEffect](/Screenshots/3E6AB54878F23B2404D256CC723670DF.jpeg)
+![image](/Untitled.gif)
 
 
 #####分析
@@ -122,5 +123,5 @@
             }
     })
     
-   接下来就可以实现自定义的侧边栏样式了
+   接下来就可以实现自定义的侧边栏样式了。
  
