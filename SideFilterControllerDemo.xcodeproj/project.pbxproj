@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186035B91DE433180051F047 /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186035B21DE433180051F047 /* OCViewController.m */; };
+		186035BA1DE433180051F047 /* CYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186035B41DE433180051F047 /* CYNavigationController.m */; };
+		186035BB1DE433180051F047 /* OCFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186035B61DE433180051F047 /* OCFilterController.m */; };
+		186035BC1DE433180051F047 /* PresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 186035B81DE433180051F047 /* PresentAnimator.m */; };
+		186035BE1DE4332E0051F047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186035BD1DE4332E0051F047 /* Main.storyboard */; };
 		43AC98171DBDD5100093E0BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AC98161DBDD5100093E0BF /* AppDelegate.swift */; };
 		43AC98191DBDD5110093E0BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AC98181DBDD5110093E0BF /* ViewController.swift */; };
-		43AC981C1DBDD5110093E0BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43AC981A1DBDD5110093E0BF /* Main.storyboard */; };
 		43AC981E1DBDD5110093E0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43AC981D1DBDD5110093E0BF /* Assets.xcassets */; };
 		43AC98211DBDD5110093E0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43AC981F1DBDD5110093E0BF /* LaunchScreen.storyboard */; };
 		43AC98291DBDD7B20093E0BF /* FilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AC98281DBDD7B20093E0BF /* FilterController.swift */; };
@@ -17,10 +21,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		186035B01DE433170051F047 /* SideFilterControllerDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SideFilterControllerDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		186035B11DE433180051F047 /* OCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
+		186035B21DE433180051F047 /* OCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
+		186035B31DE433180051F047 /* CYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYNavigationController.h; sourceTree = "<group>"; };
+		186035B41DE433180051F047 /* CYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYNavigationController.m; sourceTree = "<group>"; };
+		186035B51DE433180051F047 /* OCFilterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCFilterController.h; sourceTree = "<group>"; };
+		186035B61DE433180051F047 /* OCFilterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCFilterController.m; sourceTree = "<group>"; };
+		186035B71DE433180051F047 /* PresentAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentAnimator.h; sourceTree = "<group>"; };
+		186035B81DE433180051F047 /* PresentAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentAnimator.m; sourceTree = "<group>"; };
+		186035BD1DE4332E0051F047 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		43AC98131DBDD5100093E0BF /* SideFilterControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideFilterControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43AC98161DBDD5100093E0BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43AC98181DBDD5110093E0BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		43AC981B1DBDD5110093E0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43AC981D1DBDD5110093E0BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43AC98201DBDD5110093E0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43AC98221DBDD5110093E0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,6 +52,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		186035BF1DE433570051F047 /* OCVersion */ = {
+			isa = PBXGroup;
+			children = (
+				186035B11DE433180051F047 /* OCViewController.h */,
+				186035B21DE433180051F047 /* OCViewController.m */,
+				186035B31DE433180051F047 /* CYNavigationController.h */,
+				186035B41DE433180051F047 /* CYNavigationController.m */,
+				186035B51DE433180051F047 /* OCFilterController.h */,
+				186035B61DE433180051F047 /* OCFilterController.m */,
+				186035B71DE433180051F047 /* PresentAnimator.h */,
+				186035B81DE433180051F047 /* PresentAnimator.m */,
+			);
+			name = OCVersion;
+			sourceTree = "<group>";
+		};
 		43AC980A1DBDD5100093E0BF = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +86,16 @@
 		43AC98151DBDD5100093E0BF /* SideFilterControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				186035BF1DE433570051F047 /* OCVersion */,
 				43AC98161DBDD5100093E0BF /* AppDelegate.swift */,
 				43AC98181DBDD5110093E0BF /* ViewController.swift */,
 				43AC98281DBDD7B20093E0BF /* FilterController.swift */,
 				43AC982A1DBDDA5D0093E0BF /* FilterNavController.swift */,
-				43AC981A1DBDD5110093E0BF /* Main.storyboard */,
+				186035BD1DE4332E0051F047 /* Main.storyboard */,
 				43AC981D1DBDD5110093E0BF /* Assets.xcassets */,
 				43AC981F1DBDD5110093E0BF /* LaunchScreen.storyboard */,
 				43AC98221DBDD5110093E0BF /* Info.plist */,
+				186035B01DE433170051F047 /* SideFilterControllerDemo-Bridging-Header.h */,
 			);
 			path = SideFilterControllerDemo;
 			sourceTree = "<group>";
@@ -103,6 +133,7 @@
 					43AC98121DBDD5100093E0BF = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = P8Z7H7NDLK;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -130,9 +161,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186035BE1DE4332E0051F047 /* Main.storyboard in Resources */,
 				43AC98211DBDD5110093E0BF /* LaunchScreen.storyboard in Resources */,
 				43AC981E1DBDD5110093E0BF /* Assets.xcassets in Resources */,
-				43AC981C1DBDD5110093E0BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,24 +174,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186035BC1DE433180051F047 /* PresentAnimator.m in Sources */,
 				43AC98291DBDD7B20093E0BF /* FilterController.swift in Sources */,
+				186035B91DE433180051F047 /* OCViewController.m in Sources */,
 				43AC98191DBDD5110093E0BF /* ViewController.swift in Sources */,
 				43AC98171DBDD5100093E0BF /* AppDelegate.swift in Sources */,
+				186035BB1DE433180051F047 /* OCFilterController.m in Sources */,
 				43AC982B1DBDDA5E0093E0BF /* FilterNavController.swift in Sources */,
+				186035BA1DE433180051F047 /* CYNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		43AC981A1DBDD5110093E0BF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				43AC981B1DBDD5110093E0BF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		43AC981F1DBDD5110093E0BF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -269,11 +296,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = P8Z7H7NDLK;
 				INFOPLIST_FILE = SideFilterControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fdsa.SideFilterControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SideFilterControllerDemo/SideFilterControllerDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -282,11 +312,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = P8Z7H7NDLK;
 				INFOPLIST_FILE = SideFilterControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fdsa.SideFilterControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SideFilterControllerDemo/SideFilterControllerDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -310,6 +342,7 @@
 				43AC98271DBDD5110093E0BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
